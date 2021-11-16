@@ -21,7 +21,10 @@
               "apps/character-manager/src/favicon.ico",
               "apps/character-manager/src/assets"
             ],
-            "styles": ["apps/character-manager/src/styles.scss"],
+            "styles": [
+              "./node_modules/ng-zorro-antd/ng-zorro-antd.min.css",
+              "apps/character-manager/src/styles.scss"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -93,7 +96,8 @@
           }
         }
       },
-      "tags": []
+      "tags": [],
+      "implicitDependencies": ["util-env", "feature-dashboard"]
     },
     "character-manager-e2e": {
       "root": "apps/character-manager-e2e",
@@ -122,6 +126,409 @@
       },
       "tags": [],
       "implicitDependencies": ["character-manager"]
+    },
+    "data-access-features": {
+      "projectType": "library",
+      "root": "libs/data-access-features",
+      "sourceRoot": "libs/data-access-features/src",
+      "prefix": "dungeon-manager",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/data-access-features"],
+          "options": {
+            "jestConfig": "libs/data-access-features/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/data-access-features/src/**/*.ts",
+              "libs/data-access-features/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
+    "data-access-inventory": {
+      "projectType": "library",
+      "root": "libs/data-access-inventory",
+      "sourceRoot": "libs/data-access-inventory/src",
+      "prefix": "dungeon-manager",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/data-access-inventory"],
+          "options": {
+            "jestConfig": "libs/data-access-inventory/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/data-access-inventory/src/**/*.ts",
+              "libs/data-access-inventory/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
+    "data-access-personality": {
+      "projectType": "library",
+      "root": "libs/data-access-personality",
+      "sourceRoot": "libs/data-access-personality/src",
+      "prefix": "dungeon-manager",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/data-access-personality"],
+          "options": {
+            "jestConfig": "libs/data-access-personality/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/data-access-personality/src/**/*.ts",
+              "libs/data-access-personality/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
+    "data-access-spells": {
+      "projectType": "library",
+      "root": "libs/data-access-spells",
+      "sourceRoot": "libs/data-access-spells/src",
+      "prefix": "dungeon-manager",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/data-access-spells"],
+          "options": {
+            "jestConfig": "libs/data-access-spells/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/data-access-spells/src/**/*.ts",
+              "libs/data-access-spells/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
+    "data-access-stats": {
+      "projectType": "library",
+      "root": "libs/data-access-stats",
+      "sourceRoot": "libs/data-access-stats/src",
+      "prefix": "dungeon-manager",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/data-access-stats"],
+          "options": {
+            "jestConfig": "libs/data-access-stats/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/data-access-stats/src/**/*.ts",
+              "libs/data-access-stats/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
+    "feature-character-features": {
+      "projectType": "library",
+      "root": "libs/feature-character-features",
+      "sourceRoot": "libs/feature-character-features/src",
+      "prefix": "dungeon-manager",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/feature-character-features"],
+          "options": {
+            "jestConfig": "libs/feature-character-features/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/feature-character-features/src/**/*.ts",
+              "libs/feature-character-features/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": [],
+      "implicitDependencies": ["data-access-features"]
+    },
+    "feature-character-inventory": {
+      "projectType": "library",
+      "root": "libs/feature-character-inventory",
+      "sourceRoot": "libs/feature-character-inventory/src",
+      "prefix": "dungeon-manager",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/feature-character-inventory"],
+          "options": {
+            "jestConfig": "libs/feature-character-inventory/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/feature-character-inventory/src/**/*.ts",
+              "libs/feature-character-inventory/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": [],
+      "implicitDependencies": ["data-access-inventory"]
+    },
+    "feature-character-personality": {
+      "projectType": "library",
+      "root": "libs/feature-character-personality",
+      "sourceRoot": "libs/feature-character-personality/src",
+      "prefix": "dungeon-manager",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/feature-character-personality"],
+          "options": {
+            "jestConfig": "libs/feature-character-personality/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/feature-character-personality/src/**/*.ts",
+              "libs/feature-character-personality/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": [],
+      "implicitDependencies": ["data-access-personality"]
+    },
+    "feature-character-spells": {
+      "projectType": "library",
+      "root": "libs/feature-character-spells",
+      "sourceRoot": "libs/feature-character-spells/src",
+      "prefix": "dungeon-manager",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/feature-character-spells"],
+          "options": {
+            "jestConfig": "libs/feature-character-spells/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/feature-character-spells/src/**/*.ts",
+              "libs/feature-character-spells/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": [],
+      "implicitDependencies": ["data-access-spells"]
+    },
+    "feature-character-stats": {
+      "projectType": "library",
+      "root": "libs/feature-character-stats",
+      "sourceRoot": "libs/feature-character-stats/src",
+      "prefix": "dungeon-manager",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/feature-character-stats"],
+          "options": {
+            "jestConfig": "libs/feature-character-stats/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/feature-character-stats/src/**/*.ts",
+              "libs/feature-character-stats/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": [],
+      "implicitDependencies": ["data-access-stats"]
+    },
+    "feature-characters": {
+      "projectType": "library",
+      "root": "libs/feature-characters",
+      "sourceRoot": "libs/feature-characters/src",
+      "prefix": "dungeon-manager",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/feature-characters"],
+          "options": {
+            "jestConfig": "libs/feature-characters/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/feature-characters/src/**/*.ts",
+              "libs/feature-characters/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": [],
+      "implicitDependencies": [
+        "feature-character-features",
+        "feature-character-inventory",
+        "feature-character-spells",
+        "feature-character-stats",
+        "feature-character-personality"
+      ]
+    },
+    "feature-dashboard": {
+      "projectType": "library",
+      "root": "libs/feature-dashboard",
+      "sourceRoot": "libs/feature-dashboard/src",
+      "prefix": "dungeon-manager",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/feature-dashboard"],
+          "options": {
+            "jestConfig": "libs/feature-dashboard/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/feature-dashboard/src/**/*.ts",
+              "libs/feature-dashboard/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": [],
+      "implicitDependencies": ["feature-characters"]
+    },
+    "ui-components": {
+      "projectType": "library",
+      "root": "libs/ui-components",
+      "sourceRoot": "libs/ui-components/src",
+      "prefix": "dungeon-manager",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/ui-components"],
+          "options": {
+            "jestConfig": "libs/ui-components/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/ui-components/src/**/*.ts",
+              "libs/ui-components/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
+    "util-env": {
+      "projectType": "library",
+      "root": "libs/util-env",
+      "sourceRoot": "libs/util-env/src",
+      "prefix": "dungeon-manager",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/util-env"],
+          "options": {
+            "jestConfig": "libs/util-env/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/util-env/src/**/*.ts",
+              "libs/util-env/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
+    "util-models": {
+      "projectType": "library",
+      "root": "libs/util-models",
+      "sourceRoot": "libs/util-models/src",
+      "prefix": "dungeon-manager",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/util-models"],
+          "options": {
+            "jestConfig": "libs/util-models/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/util-models/src/**/*.ts",
+              "libs/util-models/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
     }
   }
 }
