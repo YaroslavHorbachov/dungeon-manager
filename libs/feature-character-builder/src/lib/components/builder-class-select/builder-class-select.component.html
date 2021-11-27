@@ -1,0 +1,11 @@
+<nz-collapse>
+  <ng-container *ngFor="let model of models; trackBy: modelTrackBy">
+    <ng-template #classSelectTemplate>
+      <button nz-button nzType="primary" (click)="onSelectClass(model.id)">Select</button>
+    </ng-template>
+
+    <nz-collapse-panel #panel [nzHeader]="model.name" [nzExtra]="classSelectTemplate">
+      <dungeon-manager-builder-class-item *ngIf="panel.nzActive" [model]="model"></dungeon-manager-builder-class-item>
+    </nz-collapse-panel>
+  </ng-container>
+</nz-collapse>

@@ -1,0 +1,13 @@
+<dungeon-manager-builder-class-details
+  *ngIf="isClassSelected$ | async; else classSelectTemplate"
+  [model]="selectedClass$ | async"
+  (changeClass)="onChangeClass()"
+  (next)="onNext()"
+></dungeon-manager-builder-class-details>
+
+<ng-template #classSelectTemplate>
+  <dungeon-manager-builder-class-select
+    [models]="classes$ | async"
+    (selectClass)="onSelectClass($event)"
+  ></dungeon-manager-builder-class-select>
+</ng-template>

@@ -13,48 +13,41 @@
     "lib": ["es2017", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
+    "resolveJsonModule": true,
     "baseUrl": ".",
     "paths": {
-      "@dungeon-manager/data-access-features": [
-        "libs/data-access-features/src/index.ts"
-      ],
-      "@dungeon-manager/data-access-inventory": [
-        "libs/data-access-inventory/src/index.ts"
-      ],
-      "@dungeon-manager/data-access-personality": [
-        "libs/data-access-personality/src/index.ts"
-      ],
-      "@dungeon-manager/data-access-spells": [
-        "libs/data-access-spells/src/index.ts"
-      ],
-      "@dungeon-manager/data-access-stats": [
-        "libs/data-access-stats/src/index.ts"
-      ],
-      "@dungeon-manager/feature-character-features": [
-        "libs/feature-character-features/src/index.ts"
-      ],
-      "@dungeon-manager/feature-character-inventory": [
-        "libs/feature-character-inventory/src/index.ts"
-      ],
-      "@dungeon-manager/feature-character-personality": [
-        "libs/feature-character-personality/src/index.ts"
-      ],
-      "@dungeon-manager/feature-character-spells": [
-        "libs/feature-character-spells/src/index.ts"
-      ],
-      "@dungeon-manager/feature-character-stats": [
-        "libs/feature-character-stats/src/index.ts"
-      ],
-      "@dungeon-manager/feature-characters": [
-        "libs/feature-characters/src/index.ts"
-      ],
-      "@dungeon-manager/feature-dashboard": [
-        "libs/feature-dashboard/src/index.ts"
-      ],
+      "@dungeon-manager/data-access-character": ["libs/data-access-character/src/index.ts"],
+      "@dungeon-manager/data-access-class": ["libs/data-access-class/src/index.ts"],
+      "@dungeon-manager/data-access-class-feature": ["libs/data-access-class-feature/src/index.ts"],
+      "@dungeon-manager/data-access-feat": ["libs/data-access-feat/src/index.ts"],
+      "@dungeon-manager/data-access-inventory": ["libs/data-access-inventory/src/index.ts"],
+      "@dungeon-manager/data-access-personality": ["libs/data-access-personality/src/index.ts"],
+      "@dungeon-manager/data-access-race": ["libs/data-access-race/src/index.ts"],
+      "@dungeon-manager/data-access-race-trait": ["libs/data-access-race-trait/src/index.ts"],
+      "@dungeon-manager/data-access-repository": ["libs/data-access-repository/src/index.ts"],
+      "@dungeon-manager/data-access-spell": ["libs/data-access-spell/src/index.ts"],
+      "@dungeon-manager/data-access-stat": ["libs/data-access-stat/src/index.ts"],
+      "@dungeon-manager/feature-character-builder": ["libs/feature-character-builder/src/index.ts"],
+      "@dungeon-manager/feature-character-features": ["libs/feature-character-features/src/index.ts"],
+      "@dungeon-manager/feature-character-inventory": ["libs/feature-character-inventory/src/index.ts"],
+      "@dungeon-manager/feature-character-personality": ["libs/feature-character-personality/src/index.ts"],
+      "@dungeon-manager/feature-character-spells": ["libs/feature-character-spells/src/index.ts"],
+      "@dungeon-manager/feature-character-stats": ["libs/feature-character-stats/src/index.ts"],
+      "@dungeon-manager/feature-characters": ["libs/feature-characters/src/index.ts"],
+      "@dungeon-manager/feature-dashboard": ["libs/feature-dashboard/src/index.ts"],
+      "@dungeon-manager/feature-inventory": ["libs/feature-inventory/src/index.ts"],
+      "@dungeon-manager/feature-spells": ["libs/feature-spells/src/index.ts"],
+      "@dungeon-manager/feature-wiki": ["libs/feature-wiki/src/index.ts"],
       "@dungeon-manager/ui-components": ["libs/ui-components/src/index.ts"],
       "@dungeon-manager/util-env": ["libs/util-env/src/index.ts"],
-      "@dungeon-manager/util-models": ["libs/util-models/src/index.ts"]
+      "@dungeon-manager/util-shared": ["libs/util-shared/src/index.ts"]
     }
+  },
+  "angularCompilerOptions": {
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true,
+    "strictNullInputTypes": false
   },
   "exclude": ["node_modules", "tmp"]
 }

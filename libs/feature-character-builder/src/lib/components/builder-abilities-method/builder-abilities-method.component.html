@@ -1,0 +1,16 @@
+<div class="container">
+  <nz-form-item>
+    <nz-form-label [nzSpan]="4" nzFor="abilityMethod">Method</nz-form-label>
+    <nz-form-control [nzSpan]="8">
+      <nz-select
+        [formControl]="abilityMethodControl$ | async"
+        name="abilityMethod"
+        id="abilityMethod"
+        (ngModelChange)="onSelectMethod($event)"
+      >
+        <nz-option [nzValue]="abilityMethods.PointBuy" nzLabel="Point Buy"></nz-option>
+        <nz-option [nzValue]="abilityMethods.StandardArray" nzLabel="Standard Array"></nz-option>
+      </nz-select>
+    </nz-form-control>
+  </nz-form-item>
+</div>

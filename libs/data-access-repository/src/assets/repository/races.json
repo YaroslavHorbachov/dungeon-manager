@@ -1,0 +1,173 @@
+{
+  "data": [
+    {
+      "baseRaceName": "Human",
+      "fullName": "Human",
+      "description": "Humans are the most adaptable and ambitious people among the common races. Whatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds.\nRacial Traits+1 to All Ability Scores, Extra Language",
+      "avatarUrl": "/assets/data-access-repository/images/races/human/avatar.png",
+      "portraitAvatarUrl": "/assets/data-access-repository/images/races/human/portrait.jpeg",
+      "weightSpeeds": {
+        "walk": 30,
+        "fly": 0
+      },
+      "raceId": 1,
+      "subraceId": 1
+    },
+    {
+      "baseRaceName": "Half-Orc",
+      "fullName": "Half-Orc",
+      "description": "Half-orcs’ grayish pigmentation, sloping foreheads, jutting jaws, prominent teeth, and towering builds make their orcish heritage plain for all to see.\nRacial Traits+2 Strength, +1 Constitution, Darkvision, Menacing, Relentless Endurance, Savage Attacks",
+      "avatarUrl": "/assets/data-access-repository/images/races/half-orc/avatar.png",
+      "portraitAvatarUrl": "/assets/data-access-repository/images/races/half-orc/portrait.jpeg",
+      "weightSpeeds": {
+        "walk": 30,
+        "fly": 0
+      },
+      "raceId": 2,
+      "subraceId": 2
+    },
+    {
+      "baseRaceName": "Dragonborn",
+      "fullName": "Dragonborn",
+      "description": "Dragonborn look very much like dragons standing erect in humanoid form, though they lack wings or a tail.\nRacial Traits+2 Strength, +1 Charisma, Draconic Ancestry, Breath Weapon, Damage Resistance",
+      "avatarUrl": "/assets/data-access-repository/images/races/dragonborn/avatar.png",
+      "portraitAvatarUrl": "/assets/data-access-repository/images/races/dragonborn/portrait.jpeg",
+      "weightSpeeds": {
+        "walk": 30,
+        "fly": 0
+      },
+      "raceId": 16,
+      "subraceId": 16
+    },
+    {
+      "baseRaceName": "Tiefling",
+      "fullName": "Tiefling",
+      "description": "To be greeted with stares and whispers, to suffer violence and insult on the street, to see mistrust and fear in every eye: this is the lot of the tiefling.\nRacial Traits+2 Charisma, +1 Intelligence, Darkvision, Hellish Resistance, Infernal Legacy",
+      "avatarUrl": "/assets/data-access-repository/images/races/tiefling/avatar.png",
+      "portraitAvatarUrl": "/assets/data-access-repository/images/races/tiefling/portrait.jpeg",
+      "weightSpeeds": {
+        "walk": 30,
+        "fly": 0
+      },
+      "raceId": 7,
+      "subraceId": 7
+    },
+    {
+      "baseRaceName": "Half-Elf",
+      "fullName": "Half-Elf",
+      "description": "Half-elves combine what some say are the best qualities of their elf and human parents.\nRacial Traits+2 Charisma, +1 to Two Other Ability Scores, Darkvision, Fey Ancestry, Skill Versatility",
+      "avatarUrl": "/assets/data-access-repository/images/races/half-elf/avatar.png",
+      "portraitAvatarUrl": "/assets/data-access-repository/images/races/half-elf/portrait.jpeg",
+      "weightSpeeds": {
+        "walk": 30,
+        "fly": 0
+      },
+      "raceId": 20,
+      "subraceId": 20
+    },
+    {
+      "baseRaceName": "Dwarf",
+      "fullName": "Hill Dwarf",
+      "description": "Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal.\nRacial Traits+2 Constitution, Darkvision, Dwarven Resilience, Dwarven Combat Training, StonecunningAs a hill dwarf, you have keen senses, deep intuition, and remarkable resilience. The gold dwarves of Faerûn in their mighty southern kingdom are hill dwarves, as are the exiled Neidar and the debased Klar of Krynn in the Dragonlance setting.",
+      "avatarUrl": "/assets/data-access-repository/images/races/dwarf/avatar.png",
+      "portraitAvatarUrl": "/assets/data-access-repository/images/races/dwarf/portrait-hill.jpeg",
+      "weightSpeeds": {
+        "walk": 25,
+        "fly": 0
+      },
+      "raceId": 13,
+      "subraceId": 3
+    },
+    {
+      "baseRaceName": "Dwarf",
+      "fullName": "Mountain Dwarf",
+      "description": "Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal.\nRacial Traits+2 Constitution, Darkvision, Dwarven Resilience, Dwarven Combat Training, StonecunningAs a mountain dwarf, you’re strong and hardy, accustomed to a difficult life in rugged terrain. You’re probably on the tall side (for a dwarf), and tend toward lighter coloration. The shield dwarves of northern Faerûn, as well as the ruling Hylar clan and the noble Daewar clan of Dragonlance, are mountain dwarves.",
+      "avatarUrl": "/assets/data-access-repository/images/races/dwarf/avatar.png",
+      "portraitAvatarUrl": "/assets/data-access-repository/images/races/dwarf/portrait-mountain.jpeg",
+      "weightSpeeds": {
+        "walk": 25,
+        "fly": 0
+      },
+      "raceId": 13,
+      "subraceId": 4
+    },
+    {
+      "baseRaceName": "Halfling",
+      "fullName": "Lightfoot Halfling",
+      "description": "The diminutive halflings survive in a world full of larger creatures by avoiding notice or, barring that, avoiding offense.\nRacial Traits+2 Dexterity, Lucky, Brave, Halfling NimblenessAs a lightfoot halfling, you can easily hide from notice, even using other people as cover. You’re inclined to be affable and get along well with others. In the Forgotten Realms, lightfoot halflings have spread the farthest and thus are the most common variety.\nLightfoots are more prone to wanderlust than other halflings, and often dwell alongside other races or take up a nomadic life. In the world of Greyhawk, these halflings are called hairfeet or tallfellows.",
+      "avatarUrl": "/assets/data-access-repository/images/races/halfling/avatar.png",
+      "portraitAvatarUrl": "/assets/data-access-repository/images/races/halfling/portrait-lightfoot.jpeg",
+      "weightSpeeds": {
+        "walk": 25,
+        "fly": 0
+      },
+      "raceId": 14,
+      "subraceId": 5
+    },
+    {
+      "baseRaceName": "Halfling",
+      "fullName": "Stout Halfling",
+      "description": "The diminutive halflings survive in a world full of larger creatures by avoiding notice or, barring that, avoiding offense.\nRacial Traits+2 Dexterity, Lucky, Brave, Halfling NimblenessAs a stout halfling, you’re hardier than average and have some resistance to poison. Some say that stouts have dwarven blood. In the Forgotten Realms, these halflings are called stronghearts, and they’re most common in the south.",
+      "avatarUrl": "/assets/data-access-repository/images/races/halfling/avatar.png",
+      "portraitAvatarUrl": "/assets/data-access-repository/images/races/halfling/portrait-stout.jpeg",
+      "weightSpeeds": {
+        "walk": 25,
+        "fly": 0
+      },
+      "raceId": 14,
+      "subraceId": 6
+    },
+    {
+      "baseRaceName": "Gnome",
+      "fullName": "Rock Gnome",
+      "description": "A gnome’s energy and enthusiasm for living shines through every inch of his or her tiny body.\nRacial Traits+2 Intelligence, Darkvision, Gnome CunningAs a rock gnome, you have a natural inventiveness and hardiness beyond that of other gnomes. Most gnomes in the worlds of D&D are rock gnomes, including the tinker gnomes of the Dragonlance setting.",
+      "avatarUrl": "/assets/data-access-repository/images/races/gnome/avatar.png",
+      "portraitAvatarUrl": "/assets/data-access-repository/images/races/gnome/portrait-rock.jpeg",
+      "weightSpeeds": {
+        "walk": 25,
+        "fly": 0
+      },
+      "raceId": 18,
+      "subraceId": 8
+    },
+    {
+      "baseRaceName": "Elf",
+      "fullName": "High Elf",
+      "description": "Elves are a magical people of otherworldly grace, living in the world but not entirely part of it.\nRacial Traits+2 Dexterity, Darkvision, Keen Senses, Fey Ancestry, TranceAs a high elf, you have a keen mind and a mastery of at least the basics of magic. In many of the worlds of D&D, there are two kinds of high elves. One type (which includes the gray elves and valley elves of Greyhawk, the Silvanesti of Dragonlance, and the sun elves of the Forgotten Realms) is haughty and reclusive, believing themselves to be superior to non-elves and even other elves. The other type (including the high elves of Greyhawk, the Qualinesti of Dragonlance, and the moon elves of the Forgotten Realms) are more common and more friendly, and often encountered among humans and other races.\nThe sun elves of Faerûn (also called gold elves or sunrise elves) have bronze skin and hair of copper, black, or golden blond. Their eyes are golden, silver, or black. Moon elves (also called silver elves or gray elves) are much paler, with alabaster skin sometimes tinged with blue. They often have hair of silver-white, black, or blue, but various shades of blond, brown, and red are not uncommon. Their eyes are blue or green and flecked with gold.",
+      "avatarUrl": "/assets/data-access-repository/images/races/elf/avatar.png",
+      "portraitAvatarUrl": "/assets/data-access-repository/images/races/elf/portrait-high.jpeg",
+      "weightSpeeds": {
+        "walk": 30,
+        "fly": 0
+      },
+      "raceId": 3,
+      "subraceId": 1
+    },
+    {
+      "baseRaceName": "Elf",
+      "fullName": "Wood Elf",
+      "description": "Elves are a magical people of otherworldly grace, living in the world but not entirely part of it.\nRacial Traits+2 Dexterity, Darkvision, Keen Senses, Fey Ancestry, TranceAs a wood elf, you have keen senses and intuition, and your fleet feet carry you quickly and stealthily through your native forests. This category includes the wild elves (grugach) of Greyhawk and the Kagonesti of Dragonlance, as well as the races called wood elves in Greyhawk and the Forgotten Realms. In Faerûn, wood elves (also called wild elves, green elves, or forest elves) are reclusive and distrusting of non-elves.\nWood elves’ skin tends to be copperish in hue, sometimes with traces of green. Their hair tends toward browns and blacks, but it is occasionally blond or copper-colored. Their eyes are green, brown, or hazel.",
+      "avatarUrl": "/assets/data-access-repository/images/races/elf/avatar.png",
+      "portraitAvatarUrl": "/assets/data-access-repository/images/races/elf/portrait-wood.jpeg",
+      "weightSpeeds": {
+        "walk": 30,
+        "fly": 0
+      },
+      "raceId": 3,
+      "subraceId": 2
+    },
+    {
+      "baseRaceName": "Gnome",
+      "fullName": "Deep Gnome",
+      "description": "A gnome’s energy and enthusiasm for living shines through every inch of his or her tiny body.\nRacial Traits+2 Intelligence, Darkvision, Gnome CunningForest gnomes and rock gnomes are the gnomes most commonly encountered in the lands of the surface world. There is another subrace of gnomes rarely seen by any surface-dweller: deep gnomes, also known as svirfneblin. Guarded, and suspicious of outsiders, svirfneblin are cunning and taciturn, but can be just as kind-hearted, loyal, and compassionate as their surface cousins.\nWhen you create a gnome character, you may choose the deep gnome as an alternative to the subraces in the Player’s Handbook.",
+      "avatarUrl": "/assets/data-access-repository/images/races/gnome/avatar.png",
+      "portraitAvatarUrl": "/assets/data-access-repository/images/races/gnome/portrait-deep.jpeg",
+      "weightSpeeds": {
+        "walk": 25,
+        "fly": 0
+      },
+      "raceId": 18,
+      "subraceId": 14
+    }
+  ]
+}

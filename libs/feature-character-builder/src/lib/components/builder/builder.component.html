@@ -1,0 +1,12 @@
+<nz-layout>
+  <nz-header>
+    <dungeon-manager-steps [stepIndex]="stepIndex$ | async" [steps]="steps" (indexChange)="onIndexChange($event)">
+    </dungeon-manager-steps>
+  </nz-header>
+  <nz-content [ngSwitch]="currentStep$ | async">
+    <dungeon-manager-builder-basic *ngSwitchCase="routes.Basic"></dungeon-manager-builder-basic>
+    <dungeon-manager-builder-race *ngSwitchCase="routes.Race"></dungeon-manager-builder-race>
+    <dungeon-manager-builder-class *ngSwitchCase="routes.Class"></dungeon-manager-builder-class>
+    <dungeon-manager-builder-abilities *ngSwitchCase="routes.Abilities"></dungeon-manager-builder-abilities>
+  </nz-content>
+</nz-layout>

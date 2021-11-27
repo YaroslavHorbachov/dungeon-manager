@@ -1,14 +1,6 @@
 <ul nz-menu nzMode="inline" [nzInlineCollapsed]="isCollapsed">
-  <li nz-menu-item routerLink="characters">
-    <i nz-icon nzType="user"></i>
-    <span> Characters </span>
-  </li>
-  <li nz-menu-item>
-    <i nz-icon nzType="appstore"></i>
-    <span>Inventory</span>
-  </li>
-  <li nz-menu-item>
-    <i nz-icon nzType="book"></i>
-    <span>Spells</span>
+  <li *ngFor="let navigationMenu of navigationMenus" nz-menu-item [routerLink]="navigationMenu.route" nzMatchRouter>
+    <i nz-icon [nzType]="navigationMenu.icon"></i>
+    <span>{{ navigationMenu.title }}</span>
   </li>
 </ul>

@@ -1,0 +1,5 @@
+<nz-descriptions [nzTitle]="title" nzBordered [nzColumn]="1">
+  <nz-descriptions-item *ngFor="let model of models" [nzTitle]="model.name">
+    {{ model.description }}
+  </nz-descriptions-item>
+</nz-descriptions>

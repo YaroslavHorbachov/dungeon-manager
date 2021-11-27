@@ -1,0 +1,14 @@
+<div nz-row>
+  <div nz-col nzFlex="1">
+    <img class="avatar" alt="raceAvatar" [src]="model.portraitAvatarUrl" />
+  </div>
+
+  <nz-space nz-col nzFlex="4" nzDirection="vertical" [nzSize]="'large'">
+    <nz-descriptions *nzSpaceItem nzTitle="Class Info" nzBordered [nzColumn]="1">
+      <nz-descriptions-item nzTitle="Class">{{ model.name }}</nz-descriptions-item>
+      <nz-descriptions-item nzTitle="Description">{{ model.description }}</nz-descriptions-item>
+    </nz-descriptions>
+
+    <dungeon-manager-class-features *nzSpaceItem [models]="model.features"></dungeon-manager-class-features>
+  </nz-space>
+</div>

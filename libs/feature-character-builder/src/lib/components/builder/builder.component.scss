@@ -1,0 +1,18 @@
+:host {
+  nz-header {
+    background: #fff;
+    display: flex;
+    align-items: stretch;
+    align-content: stretch;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  nz-content {
+    background: #fff;
+  }
+
+  nz-layout {
+    padding: 1rem;
+  }
+}

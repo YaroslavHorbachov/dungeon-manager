@@ -1,2 +1,4 @@
-<dungeon-manager-navigation></dungeon-manager-navigation>
-<router-outlet></router-outlet>
+<dungeon-manager-layout>
+  <dungeon-manager-navigation sider [navigationMenus]="navigationMenus"></dungeon-manager-navigation>
+  <router-outlet content></router-outlet>
+</dungeon-manager-layout>

@@ -1,0 +1,825 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Bard",
+      "description": "An inspiring magician whose power echoes the music of creation\nHit Die: d8Primary Ability: CharismaSaves: Dexterity & Charisma",
+      "equipmentDescription": "You start with the following equipment, in addition to the equipment granted by your background:\n\n(a) a rapier, (b) a longsword, or (c) any simple weapon\n(a) a diplomat’s pack or (b) an entertainer’s pack\n(a) a lute or (b) any other musical instrument\nLeather armor and a dagger\n",
+      "avatarUrl": "https://www.dndbeyond.com/avatars/6/368/636272705936235645.png?width=350&height=350&fit=bounds&quality=95&auto=webp",
+      "portraitAvatarUrl": "https://www.dndbeyond.com/avatars/10/1/636336416923635770.jpeg?width=1000&height=1000&fit=bounds&quality=95&auto=webp",
+      "hitDice": 8,
+      "wealthDice": {
+        "diceCount": 5,
+        "diceValue": 4,
+        "diceMultiplier": 10,
+        "diceString": "5d4"
+      },
+      "canCastSpells": true,
+      "knowsAllSpells": false,
+      "spellContainerName": null,
+      "primaryAbilities": [6],
+      "spellRules": {
+        "multiClassSpellSlotDivisor": 1,
+        "isRitualSpellCaster": true,
+        "levelCantripsKnownMaxes": [0, 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+        "levelSpellKnownMaxes": [0, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 15, 16, 18, 19, 19, 20, 22, 22, 22],
+        "levelSpellSlots": [
+          [0, 0, 0, 0, 0, 0, 0, 0, 0],
+          [2, 0, 0, 0, 0, 0, 0, 0, 0],
+          [3, 0, 0, 0, 0, 0, 0, 0, 0],
+          [4, 2, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 2, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 1, 0, 0, 0, 0, 0],
+          [4, 3, 3, 2, 0, 0, 0, 0, 0],
+          [4, 3, 3, 3, 1, 0, 0, 0, 0],
+          [4, 3, 3, 3, 2, 0, 0, 0, 0],
+          [4, 3, 3, 3, 2, 1, 0, 0, 0],
+          [4, 3, 3, 3, 2, 1, 0, 0, 0],
+          [4, 3, 3, 3, 2, 1, 1, 0, 0],
+          [4, 3, 3, 3, 2, 1, 1, 0, 0],
+          [4, 3, 3, 3, 2, 1, 1, 1, 0],
+          [4, 3, 3, 3, 2, 1, 1, 1, 0],
+          [4, 3, 3, 3, 2, 1, 1, 1, 1],
+          [4, 3, 3, 3, 3, 1, 1, 1, 1],
+          [4, 3, 3, 3, 3, 2, 1, 1, 1],
+          [4, 3, 3, 3, 3, 2, 2, 1, 1]
+        ],
+        "multiClassSpellSlotRounding": 1
+      },
+      "prerequisites": [
+        {
+          "description": "Charisma 13",
+          "prerequisiteMappings": [
+            {
+              "id": 10356,
+              "entityId": 6,
+              "type": "ability-score",
+              "subType": "charisma",
+              "value": 13,
+              "friendlyTypeName": "Ability Score",
+              "friendlySubTypeName": "Charisma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Cleric",
+      "description": "A priestly champion who wields divine magic in service of a higher power\nHit Die: d8Primary Ability: WisdomSaves: Wisdom & Charisma",
+      "equipmentDescription": "You start with the following equipment, in addition to the equipment granted by your background:\n\n(a) a mace or (b) a warhammer (if proficient)\n(a) scale mail, (b) leather armor, or (c) chain mail (if proficient)\n(a) a light crossbow and 20 bolts or (b) any simple weapon\n(a) a priest’s pack or (b) an explorer’s pack\nA shield and a holy symbol\n",
+      "avatarUrl": "https://www.dndbeyond.com/avatars/6/370/636272706154751958.png?width=350&height=350&fit=bounds&quality=95&auto=webp",
+      "portraitAvatarUrl": "https://www.dndbeyond.com/avatars/10/2/636336417054144618.jpeg?width=1000&height=1000&fit=bounds&quality=95&auto=webp",
+      "hitDice": 8,
+      "wealthDice": {
+        "diceCount": 5,
+        "diceValue": 4,
+        "diceMultiplier": 10,
+        "diceString": "5d4"
+      },
+      "canCastSpells": true,
+      "knowsAllSpells": true,
+      "spellContainerName": null,
+      "primaryAbilities": [5],
+      "spellRules": {
+        "multiClassSpellSlotDivisor": 1,
+        "isRitualSpellCaster": true,
+        "levelCantripsKnownMaxes": [0, 3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+        "levelSpellKnownMaxes": [],
+        "levelSpellSlots": [
+          [0, 0, 0, 0, 0, 0, 0, 0, 0],
+          [2, 0, 0, 0, 0, 0, 0, 0, 0],
+          [3, 0, 0, 0, 0, 0, 0, 0, 0],
+          [4, 2, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 2, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 1, 0, 0, 0, 0, 0],
+          [4, 3, 3, 2, 0, 0, 0, 0, 0],
+          [4, 3, 3, 3, 1, 0, 0, 0, 0],
+          [4, 3, 3, 3, 2, 0, 0, 0, 0],
+          [4, 3, 3, 3, 2, 1, 0, 0, 0],
+          [4, 3, 3, 3, 2, 1, 0, 0, 0],
+          [4, 3, 3, 3, 2, 1, 1, 0, 0],
+          [4, 3, 3, 3, 2, 1, 1, 0, 0],
+          [4, 3, 3, 3, 2, 1, 1, 1, 0],
+          [4, 3, 3, 3, 2, 1, 1, 1, 0],
+          [4, 3, 3, 3, 2, 1, 1, 1, 1],
+          [4, 3, 3, 3, 3, 1, 1, 1, 1],
+          [4, 3, 3, 3, 3, 2, 1, 1, 1],
+          [4, 3, 3, 3, 3, 2, 2, 1, 1]
+        ],
+        "multiClassSpellSlotRounding": 1
+      },
+      "prerequisites": [
+        {
+          "description": "Wisdom 13",
+          "prerequisiteMappings": [
+            {
+              "id": 10357,
+              "entityId": 5,
+              "type": "ability-score",
+              "subType": "wisdom",
+              "value": 13,
+              "friendlyTypeName": "Ability Score",
+              "friendlySubTypeName": "Wisdom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Druid",
+      "description": "A priest of the Old Faith, wielding the powers of nature and adopting animal forms\nHit Die: d8Primary Ability: WisdomSaves: Intelligence & Wisdom",
+      "equipmentDescription": "You start with the following equipment, in addition to the equipment granted by your background:\n\n(a) a wooden shield or (b) any simple weapon\n(a) a scimitar or (b) any simple melee weapon\nLeather armor, an explorer’s pack, and a druidic focus\n",
+      "avatarUrl": "https://www.dndbeyond.com/avatars/6/345/636272691461256657.png?width=350&height=350&fit=bounds&quality=95&auto=webp",
+      "portraitAvatarUrl": "https://www.dndbeyond.com/avatars/10/3/636336417152216156.jpeg?width=1000&height=1000&fit=bounds&quality=95&auto=webp",
+      "hitDice": 8,
+      "wealthDice": {
+        "diceCount": 2,
+        "diceValue": 4,
+        "diceMultiplier": 10,
+        "diceString": "2d4"
+      },
+      "canCastSpells": true,
+      "knowsAllSpells": true,
+      "spellContainerName": null,
+      "primaryAbilities": [5],
+      "spellRules": {
+        "multiClassSpellSlotDivisor": 1,
+        "isRitualSpellCaster": true,
+        "levelCantripsKnownMaxes": [0, 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+        "levelSpellKnownMaxes": [],
+        "levelSpellSlots": [
+          [0, 0, 0, 0, 0, 0, 0, 0, 0],
+          [2, 0, 0, 0, 0, 0, 0, 0, 0],
+          [3, 0, 0, 0, 0, 0, 0, 0, 0],
+          [4, 2, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 2, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 1, 0, 0, 0, 0, 0],
+          [4, 3, 3, 2, 0, 0, 0, 0, 0],
+          [4, 3, 3, 3, 1, 0, 0, 0, 0],
+          [4, 3, 3, 3, 2, 0, 0, 0, 0],
+          [4, 3, 3, 3, 2, 1, 0, 0, 0],
+          [4, 3, 3, 3, 2, 1, 0, 0, 0],
+          [4, 3, 3, 3, 2, 1, 1, 0, 0],
+          [4, 3, 3, 3, 2, 1, 1, 0, 0],
+          [4, 3, 3, 3, 2, 1, 1, 1, 0],
+          [4, 3, 3, 3, 2, 1, 1, 1, 0],
+          [4, 3, 3, 3, 2, 1, 1, 1, 1],
+          [4, 3, 3, 3, 3, 1, 1, 1, 1],
+          [4, 3, 3, 3, 3, 2, 1, 1, 1],
+          [4, 3, 3, 3, 3, 2, 2, 1, 1]
+        ],
+        "multiClassSpellSlotRounding": 1
+      },
+      "prerequisites": [
+        {
+          "description": "Wisdom 13",
+          "prerequisiteMappings": [
+            {
+              "id": 10358,
+              "entityId": 5,
+              "type": "ability-score",
+              "subType": "wisdom",
+              "value": 13,
+              "friendlyTypeName": "Ability Score",
+              "friendlySubTypeName": "Wisdom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Paladin",
+      "description": "A holy warrior bound to a sacred oath\nHit Die: d10Primary Ability: Strength & CharismaSaves: Wisdom & Charisma",
+      "equipmentDescription": "You start with the following equipment, in addition to the equipment granted by your background:\n\n(a) a martial weapon and a shield or (b) two martial weapons\n(a) five javelins or (b) any simple melee weapon\n(a) a priest’s pack or (b) an explorer’s pack\nChain mail and a holy symbol\n",
+      "avatarUrl": "https://www.dndbeyond.com/avatars/6/364/636272701936950702.png?width=350&height=350&fit=bounds&quality=95&auto=webp",
+      "portraitAvatarUrl": "https://www.dndbeyond.com/avatars/10/6/636336417477714942.jpeg?width=1000&height=1000&fit=bounds&quality=95&auto=webp",
+      "hitDice": 10,
+      "wealthDice": {
+        "diceCount": 5,
+        "diceValue": 4,
+        "diceMultiplier": 10,
+        "diceString": "5d4"
+      },
+      "canCastSpells": true,
+      "knowsAllSpells": true,
+      "spellContainerName": null,
+      "primaryAbilities": [6],
+      "spellRules": {
+        "multiClassSpellSlotDivisor": 2,
+        "isRitualSpellCaster": false,
+        "levelCantripsKnownMaxes": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "levelSpellKnownMaxes": [],
+        "levelSpellSlots": [
+          [0, 0, 0, 0, 0, 0, 0, 0, 0],
+          [0, 0, 0, 0, 0, 0, 0, 0, 0],
+          [2, 0, 0, 0, 0, 0, 0, 0, 0],
+          [3, 0, 0, 0, 0, 0, 0, 0, 0],
+          [3, 0, 0, 0, 0, 0, 0, 0, 0],
+          [4, 2, 0, 0, 0, 0, 0, 0, 0],
+          [4, 2, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 2, 0, 0, 0, 0, 0, 0],
+          [4, 3, 2, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 1, 0, 0, 0, 0, 0],
+          [4, 3, 3, 1, 0, 0, 0, 0, 0],
+          [4, 3, 3, 2, 0, 0, 0, 0, 0],
+          [4, 3, 3, 2, 0, 0, 0, 0, 0],
+          [4, 3, 3, 3, 1, 0, 0, 0, 0],
+          [4, 3, 3, 3, 1, 0, 0, 0, 0],
+          [4, 3, 3, 3, 2, 0, 0, 0, 0],
+          [4, 3, 3, 3, 2, 0, 0, 0, 0]
+        ],
+        "multiClassSpellSlotRounding": 1
+      },
+      "prerequisites": [
+        {
+          "description": "Strength 13 and Charisma 13",
+          "prerequisiteMappings": [
+            {
+              "id": 10359,
+              "entityId": 1,
+              "type": "ability-score",
+              "subType": "strength",
+              "value": 13,
+              "friendlyTypeName": "Ability Score",
+              "friendlySubTypeName": "Strength"
+            },
+            {
+              "id": 10360,
+              "entityId": 6,
+              "type": "ability-score",
+              "subType": "charisma",
+              "value": 13,
+              "friendlyTypeName": "Ability Score",
+              "friendlySubTypeName": "Charisma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Ranger",
+      "description": "A warrior who combats threats on the edges of civilization\nHit Die: d10Primary Ability: Dexterity & WisdomSaves: Strength & Dexterity",
+      "equipmentDescription": "You start with the following equipment, in addition to the equipment granted by your background:\n\n(a) scale mail or (b) leather armor\n(a) two shortswords or (b) two simple melee weapons\n(a) a dungeoneer’s pack or (b) an explorer’s pack\nA longbow and a quiver of 20 arrows\n",
+      "avatarUrl": "https://www.dndbeyond.com/avatars/6/366/636272702825813090.png?width=350&height=350&fit=bounds&quality=95&auto=webp",
+      "portraitAvatarUrl": "https://www.dndbeyond.com/avatars/10/7/636336417569697438.jpeg?width=1000&height=1000&fit=bounds&quality=95&auto=webp",
+      "hitDice": 10,
+      "wealthDice": {
+        "diceCount": 5,
+        "diceValue": 4,
+        "diceMultiplier": 10,
+        "diceString": "5d4"
+      },
+      "canCastSpells": true,
+      "knowsAllSpells": false,
+      "spellContainerName": null,
+      "primaryAbilities": [5],
+      "spellRules": {
+        "multiClassSpellSlotDivisor": 2,
+        "isRitualSpellCaster": false,
+        "levelCantripsKnownMaxes": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "levelSpellKnownMaxes": [0, 0, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11],
+        "levelSpellSlots": [
+          [0, 0, 0, 0, 0, 0, 0, 0, 0],
+          [0, 0, 0, 0, 0, 0, 0, 0, 0],
+          [2, 0, 0, 0, 0, 0, 0, 0, 0],
+          [3, 0, 0, 0, 0, 0, 0, 0, 0],
+          [3, 0, 0, 0, 0, 0, 0, 0, 0],
+          [4, 2, 0, 0, 0, 0, 0, 0, 0],
+          [4, 2, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 2, 0, 0, 0, 0, 0, 0],
+          [4, 3, 2, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 1, 0, 0, 0, 0, 0],
+          [4, 3, 3, 1, 0, 0, 0, 0, 0],
+          [4, 3, 3, 2, 0, 0, 0, 0, 0],
+          [4, 3, 3, 2, 0, 0, 0, 0, 0],
+          [4, 3, 3, 3, 1, 0, 0, 0, 0],
+          [4, 3, 3, 3, 1, 0, 0, 0, 0],
+          [4, 3, 3, 3, 2, 0, 0, 0, 0],
+          [4, 3, 3, 3, 2, 0, 0, 0, 0]
+        ],
+        "multiClassSpellSlotRounding": 1
+      },
+      "prerequisites": [
+        {
+          "description": "Dexterity 13 and Wisdom 13",
+          "prerequisiteMappings": [
+            {
+              "id": 10361,
+              "entityId": 2,
+              "type": "ability-score",
+              "subType": "dexterity",
+              "value": 13,
+              "friendlyTypeName": "Ability Score",
+              "friendlySubTypeName": "Dexterity"
+            },
+            {
+              "id": 10362,
+              "entityId": 5,
+              "type": "ability-score",
+              "subType": "wisdom",
+              "value": 13,
+              "friendlyTypeName": "Ability Score",
+              "friendlySubTypeName": "Wisdom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Sorcerer",
+      "description": "A spellcaster who draws on inherent magic from a gift or bloodline\nHit Die: d6Primary Ability: CharismaSaves: Constitution & Charisma",
+      "equipmentDescription": "You start with the following equipment, in addition to the equipment granted by your background:\n\n(a) a light crossbow and 20 bolts or (b) any simple weapon\n(a) a component pouch or (b) an arcane focus\n(a) a dungeoneer’s pack or (b) an explorer’s pack\nTwo daggers\n",
+      "avatarUrl": "https://www.dndbeyond.com/avatars/6/484/636274643818194297.png?width=350&height=350&fit=bounds&quality=95&auto=webp",
+      "portraitAvatarUrl": "https://www.dndbeyond.com/avatars/10/9/636336417773983369.jpeg?width=1000&height=1000&fit=bounds&quality=95&auto=webp",
+      "hitDice": 6,
+      "wealthDice": {
+        "diceCount": 3,
+        "diceValue": 4,
+        "diceMultiplier": 10,
+        "diceString": "3d4"
+      },
+      "canCastSpells": true,
+      "knowsAllSpells": false,
+      "spellContainerName": null,
+      "primaryAbilities": [6],
+      "spellRules": {
+        "multiClassSpellSlotDivisor": 1,
+        "isRitualSpellCaster": false,
+        "levelCantripsKnownMaxes": [0, 4, 4, 4, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6],
+        "levelSpellKnownMaxes": [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 12, 13, 13, 14, 14, 15, 15, 15, 15],
+        "levelSpellSlots": [
+          [0, 0, 0, 0, 0, 0, 0, 0, 0],
+          [2, 0, 0, 0, 0, 0, 0, 0, 0],
+          [3, 0, 0, 0, 0, 0, 0, 0, 0],
+          [4, 2, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 2, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 1, 0, 0, 0, 0, 0],
+          [4, 3, 3, 2, 0, 0, 0, 0, 0],
+          [4, 3, 3, 3, 1, 0, 0, 0, 0],
+          [4, 3, 3, 3, 2, 0, 0, 0, 0],
+          [4, 3, 3, 3, 2, 1, 0, 0, 0],
+          [4, 3, 3, 3, 2, 1, 0, 0, 0],
+          [4, 3, 3, 3, 2, 1, 1, 0, 0],
+          [4, 3, 3, 3, 2, 1, 1, 0, 0],
+          [4, 3, 3, 3, 2, 1, 1, 1, 0],
+          [4, 3, 3, 3, 2, 1, 1, 1, 0],
+          [4, 3, 3, 3, 2, 1, 1, 1, 1],
+          [4, 3, 3, 3, 3, 1, 1, 1, 1],
+          [4, 3, 3, 3, 3, 2, 1, 1, 1],
+          [4, 3, 3, 3, 3, 2, 2, 1, 1]
+        ],
+        "multiClassSpellSlotRounding": 1
+      },
+      "prerequisites": [
+        {
+          "description": "Charisma 13",
+          "prerequisiteMappings": [
+            {
+              "id": 10363,
+              "entityId": 6,
+              "type": "ability-score",
+              "subType": "charisma",
+              "value": 13,
+              "friendlyTypeName": "Ability Score",
+              "friendlySubTypeName": "Charisma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Warlock",
+      "description": "A wielder of magic that is derived from a bargain with an extraplanar entity\nHit Die: d8Primary Ability: CharismaSaves: Wisdom & Charisma",
+      "equipmentDescription": "You start with the following equipment, in addition to the equipment granted by your background:\n\n(a) a light crossbow and 20 bolts or (b) any simple weapon\n(a) a component pouch or (b) an arcane focus\n(a) a scholar’s pack or (b) a dungeoneer’s pack\nLeather armor, any simple weapon, and two daggers\n",
+      "avatarUrl": "https://www.dndbeyond.com/avatars/6/374/636272708661414129.png?width=350&height=350&fit=bounds&quality=95&auto=webp",
+      "portraitAvatarUrl": "https://www.dndbeyond.com/avatars/10/12/636336422983071263.jpeg?width=1000&height=1000&fit=bounds&quality=95&auto=webp",
+      "hitDice": 8,
+      "wealthDice": {
+        "diceCount": 4,
+        "diceValue": 4,
+        "diceMultiplier": 10,
+        "diceString": "4d4"
+      },
+      "canCastSpells": true,
+      "knowsAllSpells": false,
+      "spellContainerName": null,
+      "primaryAbilities": [6],
+      "spellRules": {
+        "multiClassSpellSlotDivisor": 1,
+        "isRitualSpellCaster": false,
+        "levelCantripsKnownMaxes": [0, 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+        "levelSpellKnownMaxes": [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 11, 11, 12, 12, 13, 13, 14, 14, 15, 15],
+        "levelSpellSlots": [
+          [0, 0, 0, 0, 0, 0, 0, 0, 0],
+          [1, 0, 0, 0, 0, 0, 0, 0, 0],
+          [2, 0, 0, 0, 0, 0, 0, 0, 0],
+          [0, 2, 0, 0, 0, 0, 0, 0, 0],
+          [0, 2, 0, 0, 0, 0, 0, 0, 0],
+          [0, 0, 2, 0, 0, 0, 0, 0, 0],
+          [0, 0, 2, 0, 0, 0, 0, 0, 0],
+          [0, 0, 0, 2, 0, 0, 0, 0, 0],
+          [0, 0, 0, 2, 0, 0, 0, 0, 0],
+          [0, 0, 0, 0, 2, 0, 0, 0, 0],
+          [0, 0, 0, 0, 2, 0, 0, 0, 0],
+          [0, 0, 0, 0, 3, 0, 0, 0, 0],
+          [0, 0, 0, 0, 3, 0, 0, 0, 0],
+          [0, 0, 0, 0, 3, 0, 0, 0, 0],
+          [0, 0, 0, 0, 3, 0, 0, 0, 0],
+          [0, 0, 0, 0, 3, 0, 0, 0, 0],
+          [0, 0, 0, 0, 3, 0, 0, 0, 0],
+          [0, 0, 0, 0, 4, 0, 0, 0, 0],
+          [0, 0, 0, 0, 4, 0, 0, 0, 0],
+          [0, 0, 0, 0, 4, 0, 0, 0, 0],
+          [0, 0, 0, 0, 4, 0, 0, 0, 0]
+        ],
+        "multiClassSpellSlotRounding": 1
+      },
+      "prerequisites": [
+        {
+          "description": "Charisma 13",
+          "prerequisiteMappings": [
+            {
+              "id": 10364,
+              "entityId": 6,
+              "type": "ability-score",
+              "subType": "charisma",
+              "value": 13,
+              "friendlyTypeName": "Ability Score",
+              "friendlySubTypeName": "Charisma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Wizard",
+      "description": "A scholarly magic-user capable of manipulating the structures of reality\nHit Die: d6Primary Ability: IntelligenceSaves: Intelligence & Wisdom",
+      "equipmentDescription": "You start with the following equipment, in addition to the equipment granted by your background:\n\n(a) a quarterstaff or (b) a dagger\n(a) a component pouch or (b) an arcane focus\n(a) a scholar’s pack or (b) an explorer’s pack\nA spellbook\n",
+      "avatarUrl": "https://www.dndbeyond.com/avatars/6/356/636272696880643718.png?width=350&height=350&fit=bounds&quality=95&auto=webp",
+      "portraitAvatarUrl": "https://www.dndbeyond.com/avatars/10/11/636336418370446635.jpeg?width=1000&height=1000&fit=bounds&quality=95&auto=webp",
+      "hitDice": 6,
+      "wealthDice": {
+        "diceCount": 4,
+        "diceValue": 4,
+        "diceMultiplier": 10,
+        "diceString": "4d4"
+      },
+      "canCastSpells": true,
+      "knowsAllSpells": false,
+      "spellContainerName": "Spellbook",
+      "primaryAbilities": [4],
+      "spellRules": {
+        "multiClassSpellSlotDivisor": 1,
+        "isRitualSpellCaster": true,
+        "levelCantripsKnownMaxes": [0, 3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+        "levelSpellKnownMaxes": [],
+        "levelSpellSlots": [
+          [0, 0, 0, 0, 0, 0, 0, 0, 0],
+          [2, 0, 0, 0, 0, 0, 0, 0, 0],
+          [3, 0, 0, 0, 0, 0, 0, 0, 0],
+          [4, 2, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 2, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 1, 0, 0, 0, 0, 0],
+          [4, 3, 3, 2, 0, 0, 0, 0, 0],
+          [4, 3, 3, 3, 1, 0, 0, 0, 0],
+          [4, 3, 3, 3, 2, 0, 0, 0, 0],
+          [4, 3, 3, 3, 2, 1, 0, 0, 0],
+          [4, 3, 3, 3, 2, 1, 0, 0, 0],
+          [4, 3, 3, 3, 2, 1, 1, 0, 0],
+          [4, 3, 3, 3, 2, 1, 1, 0, 0],
+          [4, 3, 3, 3, 2, 1, 1, 1, 0],
+          [4, 3, 3, 3, 2, 1, 1, 1, 0],
+          [4, 3, 3, 3, 2, 1, 1, 1, 1],
+          [4, 3, 3, 3, 3, 1, 1, 1, 1],
+          [4, 3, 3, 3, 3, 2, 1, 1, 1],
+          [4, 3, 3, 3, 3, 2, 2, 1, 1]
+        ],
+        "multiClassSpellSlotRounding": 1
+      },
+      "prerequisites": [
+        {
+          "description": "Intelligence 13",
+          "prerequisiteMappings": [
+            {
+              "id": 10365,
+              "entityId": 4,
+              "type": "ability-score",
+              "subType": "intelligence",
+              "value": 13,
+              "friendlyTypeName": "Ability Score",
+              "friendlySubTypeName": "Intelligence"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Barbarian",
+      "description": "A fierce warrior of primitive background who can enter a battle rage\nHit Die: d12Primary Ability: StrengthSaves: Strength & Constitution ",
+      "equipmentDescription": "You start with the following equipment, in addition to the equipment granted by your background:\n\n(a) a greataxe or (b) any martial melee weapon\n(a) two handaxes or (b) any simple weapon\nAn explorer’s pack and four javelins\n",
+      "avatarUrl": "https://www.dndbeyond.com/avatars/6/341/636272680339582512.png?width=350&height=350&fit=bounds&quality=95&auto=webp",
+      "portraitAvatarUrl": "https://www.dndbeyond.com/avatars/10/0/636336416778392507.jpeg?width=1000&height=1000&fit=bounds&quality=95&auto=webp",
+      "hitDice": 12,
+      "wealthDice": {
+        "diceCount": 2,
+        "diceValue": 4,
+        "diceMultiplier": 10,
+        "diceString": "2d4"
+      },
+      "canCastSpells": false,
+      "knowsAllSpells": null,
+      "spellContainerName": null,
+      "primaryAbilities": [1],
+      "spellRules": {
+        "multiClassSpellSlotDivisor": 3,
+        "isRitualSpellCaster": false,
+        "levelCantripsKnownMaxes": [0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+        "levelSpellKnownMaxes": [0, 0, 0, 3, 4, 4, 4, 5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 11, 11, 12, 13],
+        "levelSpellSlots": [
+          [0, 0, 0, 0, 0, 0, 0, 0, 0],
+          [0, 0, 0, 0, 0, 0, 0, 0, 0],
+          [0, 0, 0, 0, 0, 0, 0, 0, 0],
+          [2, 0, 0, 0, 0, 0, 0, 0, 0],
+          [3, 0, 0, 0, 0, 0, 0, 0, 0],
+          [3, 0, 0, 0, 0, 0, 0, 0, 0],
+          [3, 0, 0, 0, 0, 0, 0, 0, 0],
+          [4, 2, 0, 0, 0, 0, 0, 0, 0],
+          [4, 2, 0, 0, 0, 0, 0, 0, 0],
+          [4, 2, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 2, 0, 0, 0, 0, 0, 0],
+          [4, 3, 2, 0, 0, 0, 0, 0, 0],
+          [4, 3, 2, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 1, 0, 0, 0, 0, 0],
+          [4, 3, 3, 1, 0, 0, 0, 0, 0]
+        ],
+        "multiClassSpellSlotRounding": 1
+      },
+      "prerequisites": [
+        {
+          "description": "Strength 13",
+          "prerequisiteMappings": [
+            {
+              "id": 10366,
+              "entityId": 1,
+              "type": "ability-score",
+              "subType": "strength",
+              "value": 13,
+              "friendlyTypeName": "Ability Score",
+              "friendlySubTypeName": "Strength"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Fighter",
+      "description": "A master of martial combat, skilled with a variety of weapons and armor\nHit Die: d10Primary Ability: Strength or DexteritySaves: Strength & Constitution",
+      "equipmentDescription": "You start with the following equipment, in addition to the equipment granted by your background:\n\n(a) chain mail or (b) leather armor, longbow, and 20 arrows\n(a) a martial weapon and a shield or (b) two martial weapons\n(a) a light crossbow and 20 bolts or (b) two handaxes\n(a) a dungeoneer’s pack or (b) an explorer’s pack\n",
+      "avatarUrl": "https://www.dndbeyond.com/avatars/6/358/636272697873728704.png?width=350&height=350&fit=bounds&quality=95&auto=webp",
+      "portraitAvatarUrl": "https://www.dndbeyond.com/avatars/10/4/636336417268495752.jpeg?width=1000&height=1000&fit=bounds&quality=95&auto=webp",
+      "hitDice": 10,
+      "wealthDice": {
+        "diceCount": 5,
+        "diceValue": 4,
+        "diceMultiplier": 10,
+        "diceString": "5d4"
+      },
+      "canCastSpells": false,
+      "knowsAllSpells": null,
+      "spellContainerName": null,
+      "primaryAbilities": [1, 2],
+      "spellRules": {
+        "multiClassSpellSlotDivisor": 3,
+        "isRitualSpellCaster": false,
+        "levelCantripsKnownMaxes": [0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+        "levelSpellKnownMaxes": [0, 0, 0, 3, 4, 4, 4, 5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 11, 11, 12, 13],
+        "levelSpellSlots": [
+          [0, 0, 0, 0, 0, 0, 0, 0, 0],
+          [0, 0, 0, 0, 0, 0, 0, 0, 0],
+          [0, 0, 0, 0, 0, 0, 0, 0, 0],
+          [2, 0, 0, 0, 0, 0, 0, 0, 0],
+          [3, 0, 0, 0, 0, 0, 0, 0, 0],
+          [3, 0, 0, 0, 0, 0, 0, 0, 0],
+          [3, 0, 0, 0, 0, 0, 0, 0, 0],
+          [4, 2, 0, 0, 0, 0, 0, 0, 0],
+          [4, 2, 0, 0, 0, 0, 0, 0, 0],
+          [4, 2, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 2, 0, 0, 0, 0, 0, 0],
+          [4, 3, 2, 0, 0, 0, 0, 0, 0],
+          [4, 3, 2, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 1, 0, 0, 0, 0, 0],
+          [4, 3, 3, 1, 0, 0, 0, 0, 0]
+        ],
+        "multiClassSpellSlotRounding": 1
+      },
+      "prerequisites": [
+        {
+          "description": "Strength 13",
+          "prerequisiteMappings": [
+            {
+              "id": 10367,
+              "entityId": 1,
+              "type": "ability-score",
+              "subType": "strength",
+              "value": 13,
+              "friendlyTypeName": "Ability Score",
+              "friendlySubTypeName": "Strength"
+            }
+          ]
+        },
+        {
+          "description": "or Dexterity 13",
+          "prerequisiteMappings": [
+            {
+              "id": 10368,
+              "entityId": 2,
+              "type": "ability-score",
+              "subType": "dexterity",
+              "value": 13,
+              "friendlyTypeName": "Ability Score",
+              "friendlySubTypeName": "Dexterity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Monk",
+      "description": "A master of martial arts, harnessing the power of the body in pursuit of physical and spiritual perfection\nHit Die: d8Primary Ability: Dexterity & WisdomSaves: Strength & Dexterity",
+      "equipmentDescription": "You start with the following equipment, in addition to the equipment granted by your background:\n\n(a) a shortsword or (b) any simple weapon\n(a) a dungeoneer’s pack or (b) an explorer’s pack\n10 darts\n",
+      "avatarUrl": "https://www.dndbeyond.com/avatars/6/488/636274646181088338.png?width=350&height=350&fit=bounds&quality=95&auto=webp",
+      "portraitAvatarUrl": "https://www.dndbeyond.com/avatars/10/5/636336417372349522.jpeg?width=1000&height=1000&fit=bounds&quality=95&auto=webp",
+      "hitDice": 8,
+      "wealthDice": {
+        "diceCount": 5,
+        "diceValue": 4,
+        "diceMultiplier": null,
+        "diceString": "5d4"
+      },
+      "canCastSpells": false,
+      "knowsAllSpells": null,
+      "spellContainerName": null,
+      "primaryAbilities": [5],
+      "spellRules": {
+        "multiClassSpellSlotDivisor": 3,
+        "isRitualSpellCaster": false,
+        "levelCantripsKnownMaxes": [0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+        "levelSpellKnownMaxes": [0, 0, 0, 3, 4, 4, 4, 5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 11, 11, 12, 13],
+        "levelSpellSlots": [
+          [0, 0, 0, 0, 0, 0, 0, 0, 0],
+          [0, 0, 0, 0, 0, 0, 0, 0, 0],
+          [0, 0, 0, 0, 0, 0, 0, 0, 0],
+          [2, 0, 0, 0, 0, 0, 0, 0, 0],
+          [3, 0, 0, 0, 0, 0, 0, 0, 0],
+          [3, 0, 0, 0, 0, 0, 0, 0, 0],
+          [3, 0, 0, 0, 0, 0, 0, 0, 0],
+          [4, 2, 0, 0, 0, 0, 0, 0, 0],
+          [4, 2, 0, 0, 0, 0, 0, 0, 0],
+          [4, 2, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 2, 0, 0, 0, 0, 0, 0],
+          [4, 3, 2, 0, 0, 0, 0, 0, 0],
+          [4, 3, 2, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 1, 0, 0, 0, 0, 0],
+          [4, 3, 3, 1, 0, 0, 0, 0, 0]
+        ],
+        "multiClassSpellSlotRounding": 1
+      },
+      "prerequisites": [
+        {
+          "description": "Dexterity 13 and Wisdom 13",
+          "prerequisiteMappings": [
+            {
+              "id": 10369,
+              "entityId": 2,
+              "type": "ability-score",
+              "subType": "dexterity",
+              "value": 13,
+              "friendlyTypeName": "Ability Score",
+              "friendlySubTypeName": "Dexterity"
+            },
+            {
+              "id": 10370,
+              "entityId": 5,
+              "type": "ability-score",
+              "subType": "wisdom",
+              "value": 13,
+              "friendlyTypeName": "Ability Score",
+              "friendlySubTypeName": "Wisdom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Rogue",
+      "description": "A scoundrel who uses stealth and trickery to overcome obstacles and enemies\nHit Die: d8Primary Ability: DexteritySaves: Dexterity & Intelligence",
+      "equipmentDescription": "You start with the following equipment, in addition to the equipment granted by your background:\n\n(a) a rapier or (b) a shortsword\n(a) a shortbow and quiver of 20 arrows or (b) a shortsword\n(a) a burglar’s pack, (b) a dungeoneer’s pack, or (c) an explorer’s pack\nLeather armor, two daggers, and thieves’ tools\n",
+      "avatarUrl": "https://www.dndbeyond.com/avatars/6/383/636272820318807897.png?width=350&height=350&fit=bounds&quality=95&auto=webp",
+      "portraitAvatarUrl": "https://www.dndbeyond.com/avatars/10/8/636336417681318097.jpeg?width=1000&height=1000&fit=bounds&quality=95&auto=webp",
+      "hitDice": 8,
+      "wealthDice": {
+        "diceCount": 4,
+        "diceValue": 4,
+        "diceMultiplier": 10,
+        "diceString": "4d4"
+      },
+      "canCastSpells": false,
+      "knowsAllSpells": null,
+      "spellContainerName": null,
+      "primaryAbilities": [2],
+      "spellRules": {
+        "multiClassSpellSlotDivisor": 3,
+        "isRitualSpellCaster": false,
+        "levelCantripsKnownMaxes": [0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+        "levelSpellKnownMaxes": [0, 0, 0, 3, 4, 4, 4, 5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 11, 11, 12, 13],
+        "levelSpellSlots": [
+          [0, 0, 0, 0, 0, 0, 0, 0, 0],
+          [0, 0, 0, 0, 0, 0, 0, 0, 0],
+          [0, 0, 0, 0, 0, 0, 0, 0, 0],
+          [2, 0, 0, 0, 0, 0, 0, 0, 0],
+          [3, 0, 0, 0, 0, 0, 0, 0, 0],
+          [3, 0, 0, 0, 0, 0, 0, 0, 0],
+          [3, 0, 0, 0, 0, 0, 0, 0, 0],
+          [4, 2, 0, 0, 0, 0, 0, 0, 0],
+          [4, 2, 0, 0, 0, 0, 0, 0, 0],
+          [4, 2, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 0, 0, 0, 0, 0, 0, 0],
+          [4, 3, 2, 0, 0, 0, 0, 0, 0],
+          [4, 3, 2, 0, 0, 0, 0, 0, 0],
+          [4, 3, 2, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 0, 0, 0, 0, 0, 0],
+          [4, 3, 3, 1, 0, 0, 0, 0, 0],
+          [4, 3, 3, 1, 0, 0, 0, 0, 0]
+        ],
+        "multiClassSpellSlotRounding": 1
+      },
+      "prerequisites": [
+        {
+          "description": "Dexterity 13",
+          "prerequisiteMappings": [
+            {
+              "id": 10371,
+              "entityId": 2,
+              "type": "ability-score",
+              "subType": "dexterity",
+              "value": 13,
+              "friendlyTypeName": "Ability Score",
+              "friendlySubTypeName": "Dexterity"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

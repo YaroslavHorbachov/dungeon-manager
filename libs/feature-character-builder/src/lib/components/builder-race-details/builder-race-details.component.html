@@ -1,0 +1,25 @@
+<div nz-row>
+  <div nz-col nzFlex="1">
+    <img class="avatar" alt="raceAvatar" [src]="model.portraitAvatarUrl" />
+  </div>
+
+  <nz-space nz-col nzFlex="4" nzDirection="vertical" [nzSize]="'large'">
+    <nz-descriptions *nzSpaceItem nzTitle="Race Info" nzBordered [nzColumn]="1">
+      <nz-descriptions-item nzTitle="Race">{{ model.raceName }}</nz-descriptions-item>
+      <nz-descriptions-item *ngIf="model.isSubrace" nzTitle="Subrace">{{ model.subraceName }}</nz-descriptions-item>
+      <nz-descriptions-item nzTitle="Description">{{ model.description }}</nz-descriptions-item>
+    </nz-descriptions>
+    <dungeon-manager-descriptions
+      *nzSpaceItem
+      title="Race Traits"
+      [models]="model.traits"
+    ></dungeon-manager-descriptions>
+  </nz-space>
+</div>
+
+<div class="footer" nz-row nzJustify="end">
+  <div class="footer-actions" nz-col>
+    <button nz-button nzType="default" (click)="onChangeRace()">Change Race</button>
+    <button nz-button nzType="primary" (click)="onNext()">Next</button>
+  </div>
+</div>

@@ -8,11 +8,24 @@ const routes: Routes = [
     component: DashboardComponent,
     children: [
       {
+        path: '',
+        pathMatch: 'full',
+        redirectTo: 'characters',
+      },
+      {
         path: 'characters',
         loadChildren: async () => {
-          const m = await import('@dungeon-manager/feature-characters');
+          const module = await import('@dungeon-manager/feature-characters');
 
-          return m.FeatureCharactersModule
+          return module.FeatureCharactersModule;
+        },
+      },
+      {
+        path: 'wiki',
+        loadChildren: async () => {
+          const module = await import('@dungeon-manager/feature-wiki');
+
+          return module.FeatureWikiModule;
         },
       },
     ],

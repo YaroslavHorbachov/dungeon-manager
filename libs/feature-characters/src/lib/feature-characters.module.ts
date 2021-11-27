@@ -1,17 +1,20 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { UiComponentsModule } from '@dungeon-manager/ui-components';
+import { DataAccessCharacterModule } from '@dungeon-manager/data-access-character';
+import { UIComponentsModule } from '@dungeon-manager/ui-components';
 import { NzCardModule } from 'ng-zorro-antd/card';
-import { CharacterComponent } from './components/character/character.component';
-import { CharactersComponent } from './components/characters/characters.component';
+import { NzLayoutModule } from 'ng-zorro-antd/layout';
+import { CharacterComponent, CharactersComponent } from './components';
 import { FeatureCharactersRoutingModule } from './feature-characters-routing.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FeatureCharactersRoutingModule,
-    UiComponentsModule,
+    UIComponentsModule,
     NzCardModule,
+    NzLayoutModule,
+    DataAccessCharacterModule,
   ],
   declarations: [CharacterComponent, CharactersComponent],
 })

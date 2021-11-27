@@ -1,0 +1,23 @@
+<form nz-form *ngrxLet="form$ as form" [formGroup]="form" (ngSubmit)="onSubmit(form)">
+  <nz-form-item>
+    <nz-form-label [nzSpan]="8" nzFor="name" nzRequired>Name</nz-form-label>
+    <nz-form-control [nzSpan]="8">
+      <input nz-input formControlName="name" name="name" type="text" id="name" />
+    </nz-form-control>
+  </nz-form-item>
+  <nz-form-item>
+    <nz-form-label [nzSpan]="8" nzFor="hitPointType" nzRequired>Hit Point Type</nz-form-label>
+    <nz-form-control [nzSpan]="8">
+      <nz-select formControlName="hitPointType" name="hitPointType" id="hitPointType">
+        <nz-option [nzValue]="characterHitPointTypes.Fixed" nzLabel="Fixed"></nz-option>
+        <nz-option [nzValue]="characterHitPointTypes.Manual" nzLabel="Manual"></nz-option>
+      </nz-select>
+    </nz-form-control>
+  </nz-form-item>
+
+  <nz-form-item>
+    <nz-form-control [nzSpan]="8" [nzOffset]="8">
+      <button nz-button nzType="primary" dungeonManagerFormDisabled>Next</button>
+    </nz-form-control>
+  </nz-form-item>
+</form>

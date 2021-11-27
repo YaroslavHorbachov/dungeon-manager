@@ -1,0 +1,18 @@
+<nz-list nzBordered nzItemLayout="vertical">
+  <nz-collapse [nzAccordion]="true">
+    <ng-container *ngFor="let model of models">
+      <ng-container>
+        <ng-template #defaultRaceSubmitTemplate>
+          <button nz-button nzType="primary" (click)="onSelectRace(model)">Select</button>
+        </ng-template>
+
+        <nz-collapse-panel #singleRaceCollapsePanel [nzHeader]="model.raceTitle" [nzExtra]="defaultRaceSubmitTemplate">
+          <dungeon-manager-builder-race-item
+            *ngIf="singleRaceCollapsePanel.nzActive"
+            [race]="model"
+          ></dungeon-manager-builder-race-item>
+        </nz-collapse-panel>
+      </ng-container>
+    </ng-container>
+  </nz-collapse>
+</nz-list>

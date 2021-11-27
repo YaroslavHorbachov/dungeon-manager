@@ -1,0 +1,3 @@
+<nz-steps [nzCurrent]="stepIndex" nzSize="small" (nzIndexChange)="onIndexChange($event)">
+  <nz-step *ngFor="let step of steps" [nzTitle]="step"></nz-step>
+</nz-steps>

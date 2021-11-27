@@ -1,0 +1,16 @@
+<nz-list-item>
+  <nz-list-item-meta [nzAvatar]="race.portraitAvatarUrl">
+    <nz-list-item-meta-title>
+      <a>{{ race.raceTitle }}</a>
+    </nz-list-item-meta-title>
+    <nz-list-item-meta-description>
+      <p nz-typography>{{ race.description }}</p>
+    </nz-list-item-meta-description>
+  </nz-list-item-meta>
+
+  <dungeon-manager-descriptions title="Race Traits" [models]="race.traits"></dungeon-manager-descriptions>
+
+  <nz-list-item-extra>
+    <img height="512" alt="raceAvatar" [src]="race.avatarUrl" />
+  </nz-list-item-extra>
+</nz-list-item>

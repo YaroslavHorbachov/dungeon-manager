@@ -7,6 +7,14 @@ const routes: Routes = [
     path: '',
     component: CharactersComponent,
   },
+  {
+    path: 'builder',
+    loadChildren: async () => {
+      const module = await import('@dungeon-manager/feature-character-builder');
+
+      return module.FeatureCharacterBuilderModule;
+    },
+  },
 ];
 
 @NgModule({

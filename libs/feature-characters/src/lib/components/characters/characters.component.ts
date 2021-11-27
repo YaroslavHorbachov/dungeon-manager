@@ -1,4 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'dungeon-manager-characters',
@@ -7,5 +8,11 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class CharactersComponent {
+  constructor(private readonly router: Router, private readonly activatedRoute: ActivatedRoute) {}
+
   public readonly characters = ['One', 'Two'];
+
+  public onClick(): void {
+    this.router.navigate(['builder'], { relativeTo: this.activatedRoute });
+  }
 }

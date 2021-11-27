@@ -1,0 +1,13 @@
+<dungeon-manager-builder-race-details
+  *ngIf="isRaceSelected$ | async; else raceSelectTemplate"
+  [model]="selectedRace$ | async"
+  (changeRace)="onChangeRace()"
+  (next)="onNext()"
+></dungeon-manager-builder-race-details>
+
+<ng-template #raceSelectTemplate>
+  <dungeon-manager-builder-race-select
+    [models]="races$ | async"
+    (selectRace)="onSelectRace($event)"
+  ></dungeon-manager-builder-race-select>
+</ng-template>

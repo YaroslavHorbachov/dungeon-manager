@@ -1,0 +1,9 @@
+<nz-collapse *ngFor="let block of blocks">
+  <nz-collapse-panel [nzHeader]="block.header">
+    <nz-collapse>
+      <nz-collapse-panel *ngFor="let feature of block.features" [nzHeader]="feature.name">
+        <p>{{ feature.description }}</p>
+      </nz-collapse-panel>
+    </nz-collapse>
+  </nz-collapse-panel>
+</nz-collapse>

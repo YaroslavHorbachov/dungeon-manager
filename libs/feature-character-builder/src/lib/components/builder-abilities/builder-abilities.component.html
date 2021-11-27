@@ -1,0 +1,20 @@
+<div nz-row>
+  <div nz-col nzSpan="12">
+    <dungeon-manager-builder-abilities-method
+      (selectMethod)="onSelectMethod($event)"
+    ></dungeon-manager-builder-abilities-method>
+    <ng-container *ngrxLet="stats$ as stats" [ngSwitch]="abilityMethod$ | async">
+      <dungeon-manager-builder-abilities-point-buy
+        *ngSwitchCase="abilityMethods.PointBuy"
+        [stats]="stats"
+      ></dungeon-manager-builder-abilities-point-buy>
+      <dungeon-manager-builder-abilities-standard-array
+        *ngSwitchCase="abilityMethods.StandardArray"
+        [stats]="stats"
+      ></dungeon-manager-builder-abilities-standard-array>
+    </ng-container>
+  </div>
+  <div nz-col nzSpan="12">
+    <dungeon-manager-builder-abilities-calculations></dungeon-manager-builder-abilities-calculations>
+  </div>
+</div>

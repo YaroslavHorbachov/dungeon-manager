@@ -1,4 +1,5 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
+import { NavigationMenuModel } from '@dungeon-manager/util-shared';
 
 @Component({
   selector: 'dungeon-manager-navigation',
@@ -7,6 +8,8 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class NavigationComponent {
+  @Input() public navigationMenus: NavigationMenuModel[] = [];
+
   public isCollapsed = false;
 
   public onToggleCollapsed(): void {
